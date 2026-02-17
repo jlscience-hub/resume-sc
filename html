@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Juan Li, PhD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .section-title { border-bottom: 2px solid #3b82f6; padding-bottom: 0.5rem; margin-top: 1.5rem; margin-bottom: 1rem; color: #1e40af; }
+        .portfolio-btn { 
+            transition: all 0.3s ease;
+            background: #1e40af;
+        }
+        .portfolio-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-1px);
+        }
+        @media print {
+            @page { margin: 0; }
+            .page-break { page-break-before: always; }
+            body { background: white; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .shadow-2xl { box-shadow: none !important; border: none !important; }
+            .portfolio-btn { background: #1e40af !important; color: white !important; border: none !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 p-4 md:p-8">
+    <div class="max-w-5xl mx-auto bg-white shadow-2xl rounded-xl overflow-hidden flex flex-col md:flex-row border border-gray-200">
+        
+        <!-- Sidebar -->
+        <div class="w-full md:w-1/3 bg-slate-100 p-8 border-r border-gray-200">
+            <div class="mb-8">
+                <h1 class="text-3xl font-bold leading-tight text-slate-900">Juan Li, <span class="text-blue-600">PhD</span></h1>
+                <p class="text-slate-600 mt-2 font-semibold text-lg leading-tight">Science Communicator |<br>Life Science Scientist</p>
+            </div>
+
+            <!-- Basic Contact -->
+            <div class="space-y-3 text-sm text-slate-700">
+                <div class="flex items-center">
+                    <i class="fas fa-map-marker-alt w-6 text-blue-600 text-center"></i>
+                    <span>Ottawa, Canada</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-phone w-6 text-blue-600 text-center"></i>
+                    <span>514-241-5072</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-envelope w-6 text-blue-600 text-center"></i>
+                    <span class="break-all">jlnyc117@gmail.com</span>
+                </div>
+            </div>
+
+            <!-- Highlighted Portfolio Section -->
+            <div class="mt-8 p-5 bg-white rounded-lg border-2 border-blue-200 shadow-sm">
+                <h3 class="text-xs font-bold text-blue-800 uppercase tracking-widest mb-3">Science Communication Portfolio</h3>
+                <p class="text-xs text-slate-500 mb-4 leading-relaxed">Showcasing my science writing, evidence synthesis, and research support samples.</p>
+                <a href="https://jlscience-hub.github.io/sci-writing/" target="_blank" class="portfolio-btn block text-center text-white py-2.5 px-3 rounded text-sm font-bold shadow-md">
+                    <i class="fas fa-external-link-alt mr-2"></i>View My Work
+                </a>
+                <p class="text-[10px] text-center mt-3 text-slate-400 break-all opacity-75">jlscience-hub.github.io/sci-writing/</p>
+            </div>
+
+            <div class="mt-10">
+                <h3 class="text-lg font-bold text-slate-800 border-b-2 border-blue-200 mb-4 pb-1 uppercase text-xs tracking-widest">Core Skills</h3>
+                <ul class="space-y-2.5 text-sm text-slate-700">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-blue-500 mt-1 mr-2 text-xs"></i><span>Literature Review & Evidence Synthesis</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-blue-500 mt-1 mr-2 text-xs"></i><span>Research Writing & KT</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-blue-500 mt-1 mr-2 text-xs"></i><span>Multidisciplinary Collaboration</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-blue-500 mt-1 mr-2 text-xs"></i><span>Biomedical Laboratory Research</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-blue-500 mt-1 mr-2 text-xs"></i><span>Project Coordination</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-blue-500 mt-1 mr-2 text-xs"></i><span>MS Office & Web Dev Basics</span></li>
+                </ul>
+            </div>
+
+            <div class="mt-10">
+                <h3 class="text-lg font-bold text-slate-800 border-b-2 border-blue-200 mb-4 pb-1 uppercase text-xs tracking-widest">Languages</h3>
+                <div class="space-y-4 text-sm text-slate-700">
+                    <div>
+                        <div class="flex justify-between mb-1.5"><span class="font-semibold">Mandarin Chinese</span><span class="text-xs text-blue-600 italic font-medium">Native</span></div>
+                        <div class="w-full bg-slate-200 h-1.5 rounded-full"><div class="bg-blue-600 h-1.5 rounded-full w-full"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1.5"><span class="font-semibold">English</span><span class="text-xs text-blue-600 italic font-medium">Professional</span></div>
+                        <div class="w-full bg-slate-200 h-1.5 rounded-full"><div class="bg-blue-600 h-1.5 rounded-full w-11/12"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1.5"><span class="font-semibold">French</span><span class="text-xs text-blue-600 italic font-medium">Intermediate</span></div>
+                        <div class="w-full bg-slate-200 h-1.5 rounded-full"><div class="bg-blue-600 h-1.5 rounded-full w-2/3"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="w-full md:w-2/3 p-8 md:p-12">
+            <section>
+                <h2 class="text-2xl font-bold text-slate-800 mb-4 uppercase tracking-wider">Professional Summary</h2>
+                <!-- 保留强化样式（text-slate-700 + text-base） -->
+                <p class="text-slate-700 leading-relaxed text-base text-justify">
+                    PhD-trained life scientist with hospital-based biomedical research experience in China, the United States (Weill Cornell Medical College), and Canada (Institut de Recherches Cliniques de Montréal, IRCM). Strong expertise in scientific literature review, evidence synthesis, and translating complex biomedical research into clear, accurate, and audience-tailored communication.
+
+Extensive experience preparing research-based materials for academic, clinical, policy, and public audiences, and collaborating with multidisciplinary teams including researchers and clinicians.Seeking a long-term, full-time role in life sciences and pharmaceutical communications, specializing in scientific storytelling, content strategy, and evidence-based medical communication to enhance industry visibility, research impact, and informed public engagement.
+                </p>
+            </section>
+
+            <!-- Education -->
+            <section class="mt-8">
+                <h2 class="section-title text-xl font-bold text-blue-800">Education</h2>
+                <div class="space-y-4">
+                    <div class="relative pl-4 border-l-2 border-blue-200">
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-slate-800 text-sm italic">Ph.D. in Developmental Biology / Immunology</h3>
+                            <span class="text-xs text-slate-500 font-medium">2005 – 2011</span>
+                        </div>
+                        <p class="text-xs text-slate-600">Shandong University, China</p>
+                    </div>
+                    <div class="relative pl-4 border-l-2 border-blue-200">
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-slate-800 text-sm italic">Joint Ph.D. Training (Genetic Medicine)</h3>
+                            <span class="text-xs text-slate-500 font-medium">2008 – 2010</span>
+                        </div>
+                        <p class="text-xs text-slate-600">Weill Cornell Medical College, USA</p>
+                    </div>
+                    <div class="relative pl-4 border-l-2 border-blue-200">
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-slate-800 text-sm italic font-bold">B.S. in Life Sciences</h3>
+                            <span class="text-xs text-slate-500 font-medium">2001 – 2005</span>
+                        </div>
+                        <p class="text-xs text-slate-600 font-medium uppercase tracking-tight">Liaocheng University, China</p>
+                        <p class="text-[11px] text-slate-500 mt-1">Honors: Excellent Undergraduate Student of Shandong Province; 1st Class Scholarship (2003-2005).</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Research Experience Section -->
+            <section class="mt-8">
+                <h2 class="section-title text-xl font-bold">Research Experience</h2>
+                <div class="space-y-6">
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-slate-800 text-lg">Postdoctoral Fellow</h3>
+                            <span class="text-sm text-blue-600 font-bold bg-blue-50 px-2.5 py-1 rounded">2013 – 2015</span>
+                        </div>
+                        <p class="text-slate-700 font-semibold italic mt-1">Institut de Recherches Cliniques de Montréal (IRCM), Canada</p>
+                        <ul class="list-disc list-outside ml-4 mt-2 text-sm text-slate-600 space-y-1.5">
+                            <li>Designed and executed an independent biomedical research project in tumor immunology within a hospital-affiliated clinical research institute.</li>
+                            <li>Conducted comprehensive scientific literature reviews, experimental data analysis, and interpretation to support translational research objectives.</li>
+                            <li>Prepared research manuscripts, summaries, and presentations for internal review and peer-reviewed publication.</li>
+                            <li>Collaborated with multidisciplinary research teams working in close connection with clinical research programs.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-slate-800 text-lg">Assistant Researcher</h3>
+                            <span class="text-sm text-blue-600 font-bold bg-blue-50 px-2.5 py-1 rounded">2011 – 2013</span>
+                        </div>
+                        <p class="text-slate-700 font-semibold italic mt-1">Tongji University, Shanghai, China</p>
+                        <ul class="list-disc list-outside ml-4 mt-2 text-sm text-slate-600 space-y-1.5">
+                            <li>Led two epigenetic regulation research projects related to stem cell biology and oncology.</li>
+                            <li>Authored and reviewed research grant proposals and technical research documents.</li>
+                            <li>Mentored undergraduate and graduate students in laboratory research and scientific writing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Science Communication & Evidence Synthesis Section -->
+            <section class="mt-8">
+                <h2 class="section-title text-xl font-bold">Research Communication & Evidence Synthesis</h2>
+                <div class="space-y-6">
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-slate-800 text-lg">Freelance Science Communication Writer</h3>
+                            <span class="text-sm text-blue-600 font-bold bg-blue-50 px-2.5 py-1 rounded">2022 – Present</span>
+                        </div>
+                        <p class="text-slate-700 font-semibold italic mt-1">Editorial Consultant</p>
+                        <ul class="list-disc list-outside ml-4 mt-2 text-sm text-slate-600 space-y-1.5">
+                            <li>Conducted in-depth literature reviews and evidence synthesis on biomedical and public health topics to support research-based communication projects.</li>
+                            <li>Translated complex scientific and medical evidence into clear written materials for diverse audiences, including researchers, clinicians, policymakers, and the general public.</li>
+                            <li>Interviewed scientists, physicians, and health policy stakeholders to ensure accurate representation of research findings and healthcare initiatives.</li>
+                            <li>Managed multiple projects independently, demonstrating strong organizational skills, attention to detail, and adherence to timelines.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-slate-800 text-lg">Co-founder & Chief Editor</h3>
+                            <!-- 核心修改：将2018改为2016 -->
+                            <span class="text-sm text-blue-600 font-bold bg-blue-50 px-2.5 py-1 rounded">2016 – 2022</span>
+                        </div>
+                        <p class="text-slate-700 font-semibold italic mt-1">Tianjin Xue Ren Jian Kang Technology Co., Ltd.</p>
+                        <ul class="list-disc list-outside ml-4 mt-2 text-sm text-slate-600 space-y-1.5">
+                            <li>Led editorial strategy for a healthcare science media platform producing evidence-based articles, visual materials, and educational content.</li>
+                            <li>Established collaborations with academic journals and research institutions to develop research news, features, and summaries.</li>
+                            <li>Worked closely with researchers and clinicians to translate scientific findings into accessible formats.</li>
+                            <li>Contributed to science communication projects sponsored by the China Association for Science and Technology and the Chinese Academy of Sciences.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Academic Publications（字号统一+Juan Li全加粗） -->
+            <section class="mt-8 page-break">
+                <h2 class="section-title text-xl font-bold">Academic Publications</h2>
+                <div class="space-y-3.5 text-sm text-slate-700 leading-relaxed">
+                    <p>1. China Nutrition Society Obesity Prevention and Control Branch; Xi’an Jiaotong University Global Health Institute; International Obesity and Metabolic Disorders Research Center; Qinghai Nutrition Society; Qinghai University School of Medicine Nutrition and Health Promotion Research Center. 2025 World Obesity Report [in Chinese]. J. Xi’an Jiaotong Univ. Med. Sci. 2025,46(2): 363–79.</p>
+                    <p>2. <strong>Juan Li</strong>, Dominique Davidson, Cleiton Martins Souza, Ming-Chao Zhong, Ning Wu, Morag Park, William J. Muller and André Veillette. Loss of PTPN12 stimulates progression of ErbB2-dependent breast cancer by enhancing cell survival, migration and epithelial-to-mesenchymal transition. Molecular and Cellular Biology. 2015,35(23):4069-82.</p>
+                    <p>3. Chuanqing Wu, Mei Yang, <strong>Juan Li</strong>, Kaixiong Tao, Baolin Wang. Talpid3-binding centrosomal protein Cep120 is required for centriole duplication and proliferation of cerebellar granule neuron progenitors. PLoS One. 2014,9(9): e107943.</p>
+                    <p>4. Su Chen*, <strong>Juan Li</strong>*, Da-Liang Wang*, Fang-Lin Sun. Histone H2B lysine 120 monoubiquitination is required for embryonic stem cell differentiation. Cell Research. 2012, 22(9):1402-5. (*Equal contribution)</p>
+                    <p>5. <strong>Juan Li</strong>, Chengbing Wang, Yong Pan, Zengliang Bai, Baolin Wang. Increased proteolytic processing of full-length Gli2 transcription factor reduces the hedgehog pathway activity in vivo. Developmental Dynamics. 2011,240(4):766-74.</p>
+                    <p>6. Ze Wang, Zengliang Bai, Hui Zhang, Tianxiao Huan, <strong>Juan Li</strong>, Xiumin Du, Jingping Zhang. Growth potential of human hepatocarcinoma cells in the liver of neonatal immunocompetent mice and its relation to immunological tolerance. Progress in Natural Science, 2009,19(6):705-12.</p>
+                    <p>7. Hui Zhang, Zengliang Bai, Jing Chen, Ze Wang, <strong>Juan Li</strong>. Alpha-fetoprotein-specific transfer factors downregulate alpha-fetoprotein expression and specifically induce apoptosis in Bel7402 alpha-fetoprotein-positive hepatocarcinoma cells. Hepatol Res. 2007,37(7):557-67.</p>
+                    <p>8. <strong>Juan Li</strong>, Zengliang Bai. Regulation of alpha-fetoprotein gene expression and its application in gene therapy for hepatocellular carcinoma[in Chinese]. Chin. J. Pharm. Biotechnol. 2007,14(4): 297–301. (Review)</p>
+                </div>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="section-title text-xl font-bold">Honors & Awards</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 text-sm text-slate-600 italic">
+                    <p class="flex items-center"><i class="fas fa-medal text-blue-500 mr-2 text-xs"></i>Young Talented Researcher Projects, Tongji Univ.</p>
+                    <p class="flex items-center"><i class="fas fa-medal text-blue-500 mr-2 text-xs"></i>Excellent Undergraduate Student, Shandong Province</p>
+                    <p class="flex items-center"><i class="fas fa-medal text-blue-500 mr-2 text-xs"></i>1st prize, National College English Contest</p>
+                    <p class="flex items-center"><i class="fas fa-medal text-blue-500 mr-2 text-xs"></i>1st Class Scholarship, Liaocheng Univ. (2003-05)</p>
+                    <p class="flex items-center"><i class="fas fa-medal text-blue-500 mr-2 text-xs"></i>2nd prize, National New Concept Writing Contest</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="max-w-5xl mx-auto text-center mt-6 text-slate-400 text-[10px] uppercase tracking-widest print:hidden">
+        Optimized for Science Communication & Academic Research Positions
+    </div>
+</body>
+</html>
